@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>宗像の人気カフェ「Vicke」が老舗喫茶「カナダ館」跡地へ移転 ― 店主・渡邉知之さんに聞く | 宗像経済新聞</title>
+  <meta name="description" content="宗像市葉山の人気カフェ「Cafe&lunch Vicke」が、45年の歴史を持つ老舗喫茶店「カナダ館」跡地へ移転。店主の渡邉知之さんにその想いを聞いた。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #faf8f5;
+      --color-text: #2c2c2c;
+      --color-text-light: #666;
+      --color-accent: #b8860b;
+      --color-accent-light: #d4a843;
+      --color-border: #e0dcd6;
+      --color-card-bg: #ffffff;
+      --color-interviewer-bg: #f0ede8;
+      --color-interviewee-bg: #fff9ef;
+      --color-cta-bg: #8b4513;
+      --color-cta-hover: #a0522d;
+      --max-width: 780px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans JP', sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.9;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ── */
+    .site-header {
+      background: #0068B7;
+      padding: 10px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .site-header .logo-img {
+      height: 40px;
+      width: auto;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    /* ── Article wrapper ── */
+    .article-wrapper {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    /* ── Meta ── */
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--color-accent);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 3px;
+      letter-spacing: 0.05em;
+    }
+
+    .tag.sponsored {
+      background: #c0392b;
+    }
+
+    .date {
+      font-size: 13px;
+      color: var(--color-text-light);
+    }
+
+    /* ── Title ── */
+    .article-title {
+      font-family: 'Noto Serif JP', serif;
+      font-weight: 900;
+      font-size: clamp(24px, 5vw, 34px);
+      line-height: 1.5;
+      margin-bottom: 10px;
+      color: var(--color-text);
+    }
+
+    .article-subtitle {
+      font-size: 15px;
+      color: var(--color-text-light);
+      margin-bottom: 32px;
+      line-height: 1.8;
+    }
+
+    /* ── Hero image ── */
+    .hero-image {
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .image-caption {
+      font-size: 12px;
+      color: var(--color-text-light);
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    /* ── Lead ── */
+    .lead {
+      font-size: 15px;
+      line-height: 2;
+      margin-bottom: 36px;
+      padding: 20px 24px;
+      background: var(--color-card-bg);
+      border-left: 4px solid var(--color-accent);
+      border-radius: 0 8px 8px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    /* ── Section heading ── */
+    .section-heading {
+      font-family: 'Noto Serif JP', serif;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 44px 0 20px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--color-accent);
+      color: var(--color-text);
+    }
+
+    /* ── Interview block ── */
+    .interview-block {
+      margin-bottom: 28px;
+    }
+
+    .interview-block:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .q,
+    .a {
+      display: flex;
+      gap: 14px;
+      padding: 18px 20px;
+      border-radius: 10px;
+      margin-bottom: 4px;
+    }
+
+    .q {
+      background: var(--color-interviewer-bg);
+    }
+
+    .a {
+      background: var(--color-interviewee-bg);
+    }
+
+    .speaker-icon {
+      flex-shrink: 0;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: #fff;
+      margin-top: 2px;
+    }
+
+    .q .speaker-icon {
+      background: #5a7a8a;
+    }
+
+    .a .speaker-icon {
+      background: var(--color-accent);
+    }
+
+    .speaker-text {
+      flex: 1;
+    }
+
+    .speaker-name {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--color-text-light);
+      margin-bottom: 4px;
+    }
+
+    .q .speaker-name {
+      color: #5a7a8a;
+    }
+
+    .a .speaker-name {
+      color: var(--color-accent);
+    }
+
+    .speaker-text p {
+      font-size: 15px;
+      line-height: 1.9;
+    }
+
+    /* ── Inline image ── */
+    .inline-image {
+      margin: 28px 0;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    }
+
+    .inline-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .inline-image .image-caption {
+      background: #fff;
+      margin-bottom: 0;
+      padding: 10px 16px;
+    }
+
+    /* ── CTA box ── */
+    .cta-box {
+      background: linear-gradient(135deg, #8b4513 0%, #a0522d 50%, #b8860b 100%);
+      color: #fff;
+      border-radius: 12px;
+      padding: 36px 32px;
+      margin: 48px 0 36px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(139, 69, 19, 0.25);
+    }
+
+    .cta-box h3 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .cta-box p {
+      font-size: 14px;
+      line-height: 1.8;
+      margin-bottom: 10px;
+      opacity: 0.92;
+    }
+
+    .cta-box .cta-details {
+      font-size: 14px;
+      margin-bottom: 20px;
+      opacity: 0.85;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: #fff;
+      color: var(--color-cta-bg);
+      font-weight: 700;
+      font-size: 16px;
+      padding: 14px 48px;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      background: #fff8ee;
+    }
+
+    /* ── Return list ── */
+    .return-list {
+      background: var(--color-card-bg);
+      border-radius: 10px;
+      padding: 28px 24px;
+      margin: 32px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .return-list h4 {
+      font-family: 'Noto Serif JP', serif;
+      font-weight: 700;
+      font-size: 17px;
+      margin-bottom: 16px;
+      color: var(--color-accent);
+    }
+
+    .return-list ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .return-list li {
+      padding: 10px 0;
+      border-bottom: 1px dashed var(--color-border);
+      font-size: 14px;
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+
+    .return-list li:last-child {
+      border-bottom: none;
+    }
+
+    .return-list .price {
+      font-weight: 700;
+      color: var(--color-accent);
+      white-space: nowrap;
+      min-width: 80px;
+    }
+
+    /* ── Info box ── */
+    .info-box {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 10px;
+      padding: 24px;
+      margin: 32px 0;
+    }
+
+    .info-box h4 {
+      font-weight: 700;
+      font-size: 15px;
+      margin-bottom: 12px;
+      color: var(--color-text);
+    }
+
+    .info-box dl {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 8px 16px;
+      font-size: 14px;
+    }
+
+    .info-box dt {
+      font-weight: 500;
+      color: var(--color-text-light);
+    }
+
+    .info-box dd {
+      color: var(--color-text);
+    }
+
+    .info-box dd a {
+      color: var(--color-accent);
+      text-decoration: underline;
+    }
+
+    /* ── Footer ── */
+    .site-footer {
+      text-align: center;
+      padding: 32px 20px;
+      font-size: 12px;
+      color: var(--color-text-light);
+      border-top: 1px solid var(--color-border);
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+
+      .q,
+      .a {
+        padding: 14px 14px;
+        gap: 10px;
+      }
+
+      .speaker-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 10px;
+      }
+
+      .cta-box {
+        padding: 28px 20px;
+      }
+
+      .info-box dl {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <img src="data:image/png;base64,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" alt="宗像経済新聞" class="logo-img">
+  </header>
+
+  <!-- Article -->
+  <main class="article-wrapper">
+
+    <!-- Meta -->
+    <div class="article-meta">
+      <span class="tag sponsored">PR</span>
+      <span class="tag">フード・飲食店</span>
+      <span class="tag">まちづくり</span>
+      <span class="date">2026年3月XX日</span>
+    </div>
+
+    <!-- Title -->
+    <h1 class="article-title">宗像の人気カフェ「Vicke」が老舗喫茶「カナダ館」跡地へ移転 ―<br>店主・渡邉知之さんに聞く、その想い</h1>
+    <p class="article-subtitle">45年の歴史を持つ名物喫茶店の灯を守り、夜も楽しめる「地域の拠点」を目指して。クラウドファンディングで支援を募る。</p>
+
+    <!-- Hero -->
+    <div class="hero-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/project_version/image/1548972/b37a270e-0326-4161-b545-6342d10911df.png?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="Cafe&lunch Vicke プロジェクト メインビジュアル" loading="lazy">
+    </div>
+    <p class="image-caption">Cafe&lunch Vicke 移転プロジェクト メインビジュアル</p>
+
+    <!-- Lead -->
+    <div class="lead">
+      福岡県宗像市葉山で人気を集めるカフェ「Cafe&lunch
+      Vicke（ビッケ）」が、同市王丸にある老舗喫茶店「カナダ館」の跡地へ移転する。45年にわたり地域に愛され続けた「カナダ館」の歴史を受け継ぎながら、昼も夜も楽しめる新たな「地域の憩いの場」を目指すという。現在、クラウドファンディングサイト「CAMPFIRE」にて移転費用の一部となる300万円の支援を募っている。障害者福祉や市議会議員としての経験を持つ異色の店主・渡邉知之さんに、移転への想いとこれからのビジョンを聞いた。
+    </div>
+
+    <!-- ── Interview Section 1 ── -->
+    <h2 class="section-heading">カナダ館との出会い ― なぜ「今」移転なのか</h2>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>今回の移転プロジェクトが話題になっています。まず、移転の経緯を教えていただけますか。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん（店主）</div>
+          <p>
+            ありがとうございます。2024年のオープン以来、おかげさまでSNSや地元メディア――ももち浜ストアやARNEなど――でもご紹介いただき、想像以上に多くのお客様に足を運んでいただけるようになりました。本当にありがたいことです。ただ、今の葉山の店舗では<strong>駐車場と席数が不足</strong>しており、せっかく遠方からお越しいただいたお客様をお断りしなければならない日も少なくありませんでした。「せっかく来たのに」と残念そうにお帰りになるお客様の姿を見るたびに、本当に心苦しい思いをしてきました。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/editor_uploaded_image/image/5072464/1770359822811.png?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="現在のVicke葉山店" loading="lazy">
+      <p class="image-caption">緑に囲まれた現在のVicke葉山店</p>
+    </div>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>厨房にも課題があったとお聞きしました。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            はい。実は厨房には<strong>コンロが2口しかなく</strong>、2人での同時作業も難しいほど狭い状態でした。手作りにこだわっている分、お料理の提供までどうしてもお時間をいただいてしまうことが多く、「もっと早くお届けしたいのに」と毎日のように感じていました。また、この規模の厨房では夜の営業を行うことも現実的に難しく、常連のお客様から「夜もVickeで食べたい」「お酒と一緒に楽しみたい」というお声をいただいても、お応えできない歯がゆさがずっとありました。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/editor_uploaded_image/image/5033239/97e127fb1d5652e69ef1d239fabbf7da.jpg?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="現在の葉山店の厨房" loading="lazy">
+      <p class="image-caption">現在の葉山店の厨房。コンロ2口のみのスペースで日々の調理を行っている</p>
+    </div>
+
+    <!-- ── Interview Section 2 ── -->
+    <h2 class="section-heading">45年の歴史を継承する ―「カナダ館」という選択</h2>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>移転先が「カナダ館」の跡地というのは驚きました。宗像市民にとっては特別な存在ですよね。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            カナダ館は宗像市で<strong>45年</strong>という長い歴史を刻み、何世代にもわたって地域の方々に愛されてきた老舗喫茶店です。あのログハウス風の温かい空間で、コーヒーを飲みながら時間を過ごした思い出を持っている宗像市民の方は本当に多いと思います。惜しまれつつ幕を閉じたあの場所の灯を絶やしたくない。歴史と独特な温かい雰囲気を大切に継承しながら、新しい時代の「地域の憩いの場」として再生させたい。それが今回のプロジェクトの原点です。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/editor_uploaded_image/image/5035603/1768871448268.png?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="カナダ館の外観" loading="lazy">
+      <p class="image-caption">45年の歴史を持つ「カナダ館」の外観。ログハウス風の温かい佇まいが特徴的だ</p>
+    </div>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>渡邉さんは障害者福祉のお仕事や市議会議員としてのご活動もされてきたと伺っています。カフェ経営とどう繋がっているのでしょうか。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            一貫して追求してきたのは<strong>「誰もが自分らしく、安心して過ごせる居場所づくり」</strong>です。障害者福祉の現場ではお一人おひとりが安心できる空間の大切さを学びましたし、市議会議員としては地域コミュニティのあり方を考え続けてきました。そしてこのカフェでも、根っこにある想いは全く同じです。緑に囲まれた空間でゆったりと手作りの料理を楽しんでいただく――そんな「心のくつろぎ」を大切にしたいという想いを形にしたのが、2024年にオープンした現在のVickeでした。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Interview Section 3 ── -->
+    <h2 class="section-heading">新しいVickeが目指すもの</h2>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>移転後のVickeはどのようなお店になるのでしょうか。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            大きく3つあります。まず、これまで難しかった<strong>夜営業を開始</strong>します。お仕事帰りの方や、ご友人同士でゆっくりお食事を楽しみたいという方にも対応できるようになります。次に、カナダ館の広さと雰囲気を生かして<strong>マルシェや音楽イベント</strong>の開催も計画しています。地域の作家さんやミュージシャンと一緒に、お店を「体験の場」としても楽しんでいただきたいんです。そして3つ目は、厨房が広くなることで、これまで以上に<strong>手作りの料理に力を入れられる</strong>こと。「地域に根ざした本格カフェ・ダイニング」として進化し、皆様にもっと楽しんでいただける場所を目指します。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/editor_uploaded_image/image/5035604/bc9d25bf93b90999b36300e3bdb4948f.png?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="新店舗の店内イメージ" loading="lazy">
+      <p class="image-caption">新店舗の店内イメージ図。ログハウスの温もりを活かした空間に</p>
+    </div>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>葉山店で人気のあった「親子カフェ」については、変更があるそうですね。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            苦渋の決断でした。カナダ館は歴史ある建物の構造を最大限に活かしたいと考えており、独立したプレイルームや授乳室・おむつ替えスペースなどの専用設備を新たに設けることが構造上どうしても難しい状況です。そのため、<strong>「親子カフェ」は葉山店の閉店とともに終了</strong>とさせていただきます。これまで親子カフェを愛してくださったお母さん・お父さん方には、心から感謝しています。ただ、ファミリーでお越しいただくこと自体は大歓迎ですので、これからも気軽に足を運んでいただければ嬉しいです。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/editor_uploaded_image/image/5038392/65ad1fcca16698bce81c369184e51f0f.png?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="葉山店の一般カフェと親子カフェルーム" loading="lazy">
+      <p class="image-caption">（左）葉山店の一般カフェスペース（右）親子カフェルームの様子</p>
+    </div>
+
+    <!-- ── Interview Section 4 ── -->
+    <h2 class="section-heading">クラウドファンディングで「一緒に創る」</h2>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>今回クラウドファンディングで支援を募る理由を教えてください。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            歴史がある建物だけに老朽化も進んでおり、まず<strong>厨房設備の全面更新</strong>が不可欠です。衛生面と作業効率を大幅に改善し、安心してお料理を提供できる環境を整えます。さらに、ログハウスの魅力を守りつつも耐震や安全基準に適合した<strong>内装・外装の修繕</strong>も必要です。合わせると<strong>最低でも500万円</strong>の費用を見込んでいます。そのうち300万円をクラウドファンディングで皆様にお力添えいただきたいと考えました。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>支援金の使い道として「安全」を最優先にされているのが印象的です。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            はい、何よりも優先するのは<strong>「安全」</strong>です。老朽化した設備による事故を未然に防ぎ、現代の安全基準をしっかり満たした環境を整えること。それがあってこそ、これから先も長く愛される店づくりができると信じています。自己資金に加えて、3月中旬から先行して工事も始めています。皆様からの支援は、この安全な基盤づくりに直接活用させていただきます。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/editor_uploaded_image/image/5051026/6c3efbccebefad593e678733e734edcc.png?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="カナダ館の厨房" loading="lazy">
+      <p class="image-caption">全面更新が必要なカナダ館の厨房設備</p>
+    </div>
+
+    <!-- Return list -->
+    <div class="return-list">
+      <h4>🎁 主なリターン一覧</h4>
+      <ul>
+        <li><span class="price">3,000円</span>店主より御礼のお手紙</li>
+        <li><span class="price">5,000円</span>お食事招待券（1名様分）</li>
+        <li><span class="price">7,000円</span>新メニュー先行試食券</li>
+        <li><span class="price">9,000円</span>ペアお食事招待券</li>
+        <li><span class="price">10,000円</span>コーヒー券（10杯相当）</li>
+        <li><span class="price">15,000円</span>SAQSIAさんのボタニカルキャンドル</li>
+        <li><span class="price">30,000円</span>支援者限定ランチ交流会（参加チケット）</li>
+        <li><span class="price">1〜10万円</span>全力応援プラン（全額をプロジェクトに！）</li>
+      </ul>
+    </div>
+
+    <!-- ── Final message ── -->
+    <h2 class="section-heading">最後に ― 読者の皆様へ</h2>
+
+    <div class="interview-block">
+      <div class="q">
+        <div class="speaker-icon">記者</div>
+        <div class="speaker-text">
+          <div class="speaker-name">― 宗像経済新聞</div>
+          <p>最後に、読者の皆様へメッセージをお願いします。</p>
+        </div>
+      </div>
+      <div class="a">
+        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-text">
+          <div class="speaker-name">渡邉 知之さん</div>
+          <p>
+            私はカフェとは単なる飲食店ではなく、<strong>地域の人々が繋がり、明日への活力を蓄える「止まり木」</strong>のような場所であってほしいと心から思っています。仕事で疲れた日にふらっと立ち寄れる場所、久しぶりの友人と語らう場所、一人で静かにコーヒーを楽しむ場所――そんな日常の中の小さな「憩い」を提供し続けたい。葉山で始まったVickeが、老舗の歴史を引き継ぎ、新しい時代の「地域の憩いの場」へと生まれ変わる。これは単なるお店の引っ越しではありません。<strong>地域の歴史を守り、新しい世代へと繋いでいく文化的な挑戦</strong>です。この挑戦には皆様の力が必要です。新しいVickeの幕開けを、ぜひ一緒に創っていただけないでしょうか。温かいご支援を、心よりお願い申し上げます。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-image">
+      <img
+        src="https://static.camp-fire.jp/uploads/editor_uploaded_image/image/5072482/93be7b18a55bbf684f2c11874b9924eb.jpg?ixlib=rails-2.1.4&fit=max&auto=format"
+        alt="店主の渡邉知之さん" loading="lazy">
+      <p class="image-caption">笑顔で取材に応じてくれた店主の渡邉知之さん</p>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-box">
+      <h3>新しいVickeを、一緒に創りませんか？</h3>
+      <p>クラウドファンディングは<strong>2026年3月31日（火）23:59</strong>まで。<br>目標金額に関わらず支援が届く「All-In方式」です。</p>
+      <div class="cta-details">目標金額：3,000,000円 ／ 3,000円から支援可能</div>
+      <a href="https://camp-fire.jp/projects/921500/preview?token=1658ef8s" class="cta-btn">🔥 プロジェクトを支援する</a>
+    </div>
+
+    <!-- Info -->
+    <div class="info-box">
+      <h4>📍 Cafe&lunch Vicke｜新店舗情報</h4>
+      <dl>
+        <dt>住所</dt>
+        <dd>〒811-3422 福岡県宗像市王丸783（旧カナダ館）</dd>
+        <dt>オープン予定</dt>
+        <dd>2026年4月5日の週</dd>
+        <dt>葉山店閉店日</dt>
+        <dd>2026年3月31日</dd>
+        <dt>CF募集期間</dt>
+        <dd>〜 2026年3月31日 23:59</dd>
+        <dt>CF詳細</dt>
+        <dd><a href="https://camp-fire.jp/projects/921500/preview?token=1658ef8s" target="_blank"
+            rel="noopener">CAMPFIRE プロジェクトページ</a></dd>
+      </dl>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>※この記事は「Cafe&lunch Vicke」の提供によるタイアップ記事です。</p>
+    <p>© 2026 宗像経済新聞</p>
+  </footer>
+
+</body>
+
+</html>
