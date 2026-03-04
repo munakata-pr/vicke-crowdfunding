@@ -185,8 +185,8 @@
 
     .speaker-icon {
       flex-shrink: 0;
-      width: 42px;
-      height: 42px;
+      width: 46px;
+      height: 46px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -195,14 +195,15 @@
       font-weight: 700;
       color: #fff;
       margin-top: 2px;
+      overflow: hidden;
+      background: #e0dcd6;
+      /* fallback */
     }
 
-    .q .speaker-icon {
-      background: #5a7a8a;
-    }
-
-    .a .speaker-icon {
-      background: var(--color-accent);
+    .speaker-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .speaker-text {
@@ -397,9 +398,8 @@
       }
 
       .speaker-icon {
-        width: 36px;
-        height: 36px;
-        font-size: 10px;
+        width: 40px;
+        height: 40px;
       }
 
       .cta-box {
@@ -456,14 +456,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>今回の移転プロジェクトが話題になっています。まず、移転の経緯を教えていただけますか。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん（店主）</div>
           <p>
@@ -482,14 +482,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>厨房にも課題があったとお聞きしました。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
@@ -511,14 +511,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>移転先が「カナダ館」の跡地というのは驚きました。宗像市民にとっては特別な存在ですよね。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
@@ -537,14 +537,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>渡邉さんは障害者福祉のお仕事や市議会議員としてのご活動もされてきたと伺っています。カフェ経営とどう繋がっているのでしょうか。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
@@ -559,14 +559,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>移転後のVickeはどのようなお店になるのでしょうか。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
@@ -585,14 +585,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>葉山店で人気のあった「親子カフェ」については、変更があるそうですね。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
@@ -614,14 +614,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>今回クラウドファンディングで支援を募る理由を教えてください。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
@@ -633,14 +633,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>支援金の使い道として「安全」を最優先にされているのが印象的です。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
@@ -677,14 +677,14 @@
 
     <div class="interview-block">
       <div class="q">
-        <div class="speaker-icon">記者</div>
+        <div class="speaker-icon"><img src="reporter.png" alt="記者"></div>
         <div class="speaker-text">
           <div class="speaker-name">― 宗像経済新聞</div>
           <p>最後に、読者の皆様へメッセージをお願いします。</p>
         </div>
       </div>
       <div class="a">
-        <div class="speaker-icon">渡邉</div>
+        <div class="speaker-icon"><img src="watanabe.png" alt="渡邉"></div>
         <div class="speaker-text">
           <div class="speaker-name">渡邉 知之さん</div>
           <p>
